@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var str = '';  //先给一个空字符串
+    for(i=1;i<=10;i++){  //外层循环控制几行
+        for(j=i;j<=10;j++){  //里面打印 个数    j=i  如果等于 1  就打印 10个； i=2 就9个 然后以此类推
+            str = str + '★'
+        }
+        str += '\n'
+    }
+    console.log(str);
+    
+    </script>
+</body>
+</html>
